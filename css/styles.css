@@ -33,9 +33,9 @@
     background-color: #FEECB0;
 }
 
-#part-1 div:nth-last-child(2) {
+/*#part-1 div:nth-last-child(2) {
     max-width: 50%;
-}
+}*/
 
 
 
@@ -43,9 +43,25 @@
 /************************* PART-2 *************************/
 
 #part-2 {
-    margin: 1rem auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    width: 300px;
 }
 
+#part-2 > div {
+    text-align: right;
+}
+
+#part-2 div:nth-child(2) {
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 14px solid #000;
+}
+
+#part-2 div:nth-child(2) img {
+    max-width: 100%;
+}
 
 
 /*display: flex;
