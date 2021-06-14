@@ -14,7 +14,44 @@
     background-color: #DB7324;
 }
 
-#main-container img {
-    width: 100%;
-    height: auto;
+
+
+/************************* PART-1 *************************/
+
+#part-1 {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    border: 2px solid black;
+    border-radius: 0.625rem;
+    width: 92%;
+    max-width: 426px;
+    height: 50px;
+    background-color: #FEECB0;
 }
+
+#part-1 div:nth-last-child(2) {
+    max-width: 50%;
+}
+
+
+
+
+/************************* PART-2 *************************/
+
+#part-2 {
+    margin: 1rem auto;
+}
+
+
+
+/*display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 92%;
+    max-width: 421px;
+    height: 60px;*/
