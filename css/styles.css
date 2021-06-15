@@ -77,24 +77,47 @@
     background-color: #FEECB0;
 }
 
-#part-3 div:nth-child(2) nav .nav {
-    justify-content: space-between !important;
-}
-
 #part-3 .nav-link {    
     padding: .5rem 0.3rem;
 }
 
 #part-3 #nav-home > p {
-    font-size: 1.063rem;
+    font-size: 1.063rem !important;
+}
+
+#part-3 #nav-about {
+    text-align: center;
+}
+
+#part-3 #nav-home p:nth-child(2) {
+    font-size: 0.938rem !important;
+    text-align: center;
+}
+
+#part-3 div:nth-child(2) nav {
+    border-top: 1px solid #b3a6a6;
+    padding-top: 8px;
+}
+
+#part-3 div:nth-child(2) nav .nav {
+    justify-content: space-between !important;
+}
+
+#part-3 div:nth-child(2) nav .nav-tabs {
+    border-bottom: none !important;
+}
+
+#part-3 div:nth-child(2) nav .nav-tabs .nav-link {
+    border-radius: .25rem !important;
 }
 
 
+/******** PORTFOLIO ********/
 
-/*display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 1px solid red;
-    width: 92%;
-    max-width: 421px;
-    height: 60px;*/
+#part-3 #nav-portifolio .carousel-inner {
+    margin-bottom: 1.5rem;
+}
+
+#part-3 #nav-portifolio .carousel-indicators {
+    margin-bottom:  -1.5rem !important;
+}
