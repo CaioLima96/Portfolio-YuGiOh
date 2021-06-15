@@ -114,10 +114,33 @@
 
 /******** PORTFOLIO ********/
 
-#part-3 #nav-portifolio .carousel-inner {
-    margin-bottom: 1.5rem;
+#part-3, a, .carousel-caption, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color:  #409DAD !important;
 }
 
+#part-3 .carousel-control-next, .carousel-control-prev {
+    top: -11.25rem !important;
+    opacity: .8 !important;
+}
+
+/*#part-3 #nav-portifolio .carousel-inner {
+    margin-bottom: 1.5rem;
+}*/
+
 #part-3 #nav-portifolio .carousel-indicators {
-    margin-bottom:  -1.5rem !important;
+    margin-bottom:  0.5rem !important;
+}
+
+#part-3 #nav-portifolio #carouselPortfolio .carousel-inner > .carousel-item .carousel-caption {
+    position: static !important;
+}
+
+#part-3 #nav-portifolio .carousel-item h2 {
+    text-align: center;
+}
+
+#part-3 #nav-portifolio #carouselPortfolio .carousel-inner .carousel-item img {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
