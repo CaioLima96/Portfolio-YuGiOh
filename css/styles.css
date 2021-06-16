@@ -114,6 +114,10 @@
 
 /******** PORTFOLIO ********/
 
+#part-3 #carouselPortfolio {
+    height: 385px !important;
+}
+
 #part-3, a, .carousel-caption, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
     color:  #409DAD !important;
 }
