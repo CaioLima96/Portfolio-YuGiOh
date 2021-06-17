@@ -148,3 +148,19 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+#part-3 #nav-contact-us div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#part-3 #nav-contact-us div a  {
+    color: black !important;
+}
+
+#part-3 #nav-contact-us div a .fa-linkedin-in:hover, .fa-github:hover, .fa-instagram:hover {
+    transition: 1s all;
+    transform: scale(1.2);
+    color: hsla(120, 100%, 63%, 0.867) !important;
+    text-shadow: 1px 1px 1px black;
+}
