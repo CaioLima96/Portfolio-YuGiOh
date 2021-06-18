@@ -114,7 +114,7 @@ body {
 }
 
 #part-3 #nav-home p:nth-child(2) {
-    font-size: 0.938rem !important;
+    font-size: 1rem !important;
     text-align: center;
 }
 
@@ -131,6 +131,24 @@ body {
 
 #part-3 #nav-home #logos img {
     max-width: 100%;
+}
+
+#part-3 #nav-home #logos2 {
+    margin: 0.625rem 0;
+    padding-left: 0.875rem;
+}
+
+#part-3 #nav-home .owl-carousel .item {
+    text-align: center;
+}
+
+#part-3 #nav-home .owl-carousel img {
+    width: 40px;
+}
+
+#part-3 #nav-home .owl-carousel #figma img {
+    width: 30px !important;
+    margin-right: 0 !important;
 }
 
 
