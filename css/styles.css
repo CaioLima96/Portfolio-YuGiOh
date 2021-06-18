@@ -85,17 +85,8 @@ body {
     padding: .5rem 0.3rem;
 }
 
-#part-3 #nav-home > p {
-    font-size: 1.063rem !important;
-}
-
-#part-3 #nav-about {
-    text-align: center;
-}
-
-#part-3 #nav-home p:nth-child(2) {
-    font-size: 0.938rem !important;
-    text-align: center;
+#part-3, a, .carousel-caption, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    color:  #409DAD !important;
 }
 
 #part-3 div:nth-child(2) nav {
@@ -116,15 +107,41 @@ body {
 }
 
 
+/******** HOME ********/
+
+#part-3 #nav-home > p {
+    font-size: 1.063rem !important;
+}
+
+#part-3 #nav-home p:nth-child(2) {
+    font-size: 0.938rem !important;
+    text-align: center;
+}
+
+#part-3 #nav-home #logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+} 
+
+/*#part-3 #nav-home #logos img {
+    width: 35px;
+}*/
+
+
+/******** ABOUT ********/
+
+#part-3 #nav-about {
+    text-align: center;
+}
+
+
 /******** PORTFOLIO ********/
 
 /*#part-3 #carouselPortfolio {
     height: 385px !important;
 }*/
-
-#part-3, a, .carousel-caption, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
-    color:  #409DAD !important;
-}
 
 #part-3 .carousel-control-next, .carousel-control-prev {
     top: -11.25rem !important;
@@ -150,9 +167,13 @@ body {
 }
 
 
-
-
 /******** CONTACT US ********/
+
+#part-3 #nav-contact-us p {
+    text-align: center;
+    font-size: 1rem !important;
+}
+
 #part-3 #nav-contact-us div:nth-last-child(2) {
     margin-top: 1rem;
     color: black !important;
