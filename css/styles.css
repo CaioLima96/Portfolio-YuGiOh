@@ -13,8 +13,7 @@ body {
     max-width: 547.19px;
     /*max-height: 900px;*/
     border: 14px solid #000000 !important;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 1.25rem auto;
     background-color: #DB7324;
 }
 
@@ -87,6 +86,14 @@ body {
 
 #part-3, a, .carousel-caption, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
     color:  #409DAD !important;
+}
+
+#part-3 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 1.063rem !important;
+    background-color: transparent !important;
+    border: none !important;
 }
 
 #part-3 div:nth-child(2) nav {
@@ -224,14 +231,6 @@ body {
     color: black !important;
 }
 
-#part-3 #nav-contact-us div a .fa-linkedin-in:hover, .fa-github:hover, .fa-instagram:hover {
-    transition: 1s all;
-    transform: scale(1.2);
-    color: hsla(120, 100%, 63%, 0.867) !important;
-    text-shadow: 1px 1px 1px black;
-}
-
-
 
 
 /**************** RESPONSIVIDADE ****************/
@@ -241,6 +240,15 @@ body {
     #part-3 #nav-home #logos #logos-b img {
         max-width: 74% !important;
     }
+}
+
+@media (max-width: 385px) {
+
+    #main-container { 
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
 }
 
 @media (max-width: 400px) {
@@ -261,4 +269,15 @@ body {
     #part-3 #nav-home #logos div > div {
         margin-top: 15px;
     }
+}
+
+@media (min-width: 1024px) {
+    
+    #part-3 #nav-contact-us div a .fa-linkedin-in:hover, .fa-github:hover, .fa-instagram:hover, .fa-facebook-f:hover {
+        transition: 1s all;
+        transform: scale(1.2);
+        color: hsla(120, 100%, 63%, 0.867) !important;
+        text-shadow: 1px 1px 1px black;
+    }
+
 }
