@@ -2,7 +2,7 @@ $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
       items: 5,
       loop: true,
-      margin: 5,
+      margin: 6,
       autoplay: true,
       autoplayTimeout: 1000,
       dots: false,
@@ -23,9 +23,8 @@ $(document).ready(function(){
         },
         1024: {
           items: 6
-        }
-        
-    }
+        }  
+      }
 
     });
   })
