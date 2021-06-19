@@ -2,9 +2,9 @@ $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
       items: 5,
       loop: true,
-      margin: 6,
+      margin: 5,
       autoplay: true,
-      autoplayTimeout: 1000,
+      autoplayTimeout: 2000,
       dots: false,
       autoplayHoverPause: true,
       slideTransitions: 'ease',
@@ -28,3 +28,4 @@ $(document).ready(function(){
 
     });
   })
+
